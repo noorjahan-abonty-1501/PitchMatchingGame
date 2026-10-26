@@ -100,6 +100,23 @@ Team members:
 - Lena Bousserhane
 - Noorjahan Abonty
 
+**My Contributions:** 
+
+## My Contributions
+
+As a member of the four-person development team, I actively contributed to all major stages of the project, from initial system design to final implementation, testing and integration.
+
+My contributions included:
+
+- **System Design and Architecture:** Collaborated on the overall system architecture and finite-state machine to coordinate audio generation, microphone recording, signal processing and user interaction.
+- **Embedded Programming and Hardware Configuration:** Contributed to configuring and integrating STM32 peripherals, including the DAC, DFSDM microphone, DMA, timers and UART communication.
+- **Digital Signal Processing:** Worked on the FFT-based pitch detection pipeline using CMSIS-DSP, including audio preprocessing, filtering, spectral analysis and frequency estimation.
+- **UART Interface and Game Logic:** Helped develop and integrate the interactive terminal interface, user commands, game-state transitions and pitch-matching feedback.
+- **Testing and Debugging:** Participated in troubleshooting hardware-software interactions, validating peripheral functionality and testing the integrated system.
+- **Performance Evaluation and Documentation:** Contributed to evaluating system performance, reviewing optimization results and documenting the design, implementation and technical outcomes.
+
+Throughout the project, I worked closely with my teammates to integrate individual components into a functioning embedded application, gaining hands-on experience with microcontroller programming, digital signal processing and system-level debugging.
+
 ## Original Repository
 
 This repository is a fork of the original collaborative project:
@@ -107,3 +124,7 @@ This repository is a fork of the original collaborative project:
 https://github.com/TheGrandMaster1/PitchMatchingGame
 
 The original repository contains the STM32 project source code and configuration files.
+
+## Project Documentation
+
+For more details about the system architecture, hardware implementation, signal processing algorithms and performance evaluation, see the [Final Project Report](docs/ECSE%20444%20-%20Final%20Project%20Final%20Report%20-%20G21.pdf).
